@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>代理管理</title>
+		<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/sam.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/manage.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/manage_3.css"/>
+		<link rel="stylesheet" type="text/css" href="../lib/jedate/skin/jedate.css"/>
+		<script src="../lib/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/manage.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../lib/jedate/jquery.jedate.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/date.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="head">
+			<div class="header_left fl">
+		            <div class="time" id="time"></div>
+		            <div class="logo"><a href="https://www.wb88.cc/"><img src="./万博娱乐城 - 亚洲知名网上博彩娱乐平台,万博娱乐集团官方网站_files/logo.png"></a></div>
+		        </div>
+		        <div class="header_right rl">
+		           
+		             <ul class="tqmenu">
+		             	<li><img src="../img/news21x21.png"/></li>
+		               <li><a href="#">在线客服</a></li>   
+		                <li><a href="#">新手帮助</a></li> 
+		                 <li><a href="#" style="border: none;">万博联营</a></li> 
+		            </ul>
+		            <div class="hbut_after">		                    
+		                <p class="hbut_first_icons">
+		                	<a href="#"><img src="../img/User-name-1.png"/></a><span>k01</span><a href="#" class="last_a"><img src="../img/Sign-out.png"/></a>
+		                </p>
+		                <p class="hbut_last_icons"><a href="#"><img src="../img/id_authentication.png"/></a><a href="#"><img src="../img/sj_authentication.png"/></a><a href="#"><img src="../img/mailbox_authentication.png"/></a><a href="#"><img src="../img/Bank_authentication.png"/></a></p>
+		            </div>
+		        </div>
+		</div>
+		<!--------------------menu开始------------------------------->
+       <div class="outmenu">
+		     <div class="menu">
+		       	<ul>
+		       		<li>
+		       			<a href="https://www.wb88.cc/">首页</a>
+		       		</li>
+		            <li>
+		            	<a href="https://www.wb88.cc/live">真人娱乐</a>
+		            </li>
+		       		<li>
+		       			<a href="https://www.wb88.cc/ptGameHall">电子游艺</a>
+		       		</li>
+		       		 <li>
+		       		 	<a href="https://www.wb88.cc/fishing">AG捕鱼王</a>
+		       		 </li>
+			        <li>
+			        	<a href="https://www.wb88.cc/sport">体育博弈</a>
+			        </li>
+			        <li>
+			        	<a href="https://www.wb88.cc/lottery">彩票游戏</a>
+			        </li>
+			        <li>
+			        	<a href="https://www.wb88.cc/chess">棋牌天地</a>
+			        </li>		  
+			        <li>
+			        	<a href="https://www.wb88.cc/" onclick="alert(&#39;暂未开放&#39;)">天天赛马</a>
+			        </li>
+			        <li>
+			        	<a href="https://www.wb88.cc/preferential">优惠活动<span class="hot hposa"></span></a>
+			        </li>
+			        <li>
+			        	<a href="javascript:void(0)" id="msy">客户端下载</a>
+		       		</li>		       		
+		       	</ul>
+          </div>
+       </div>
+            <!--主题部分-->
+        <div class="content">
+        	<div class="content_left">
+        		<div class="left1">
+        			<ul>
+        				<li><a href="#">万博娱乐</a></li>
+      				<li><a href="membersHome.html">会员首页</a></li>
+      				<li><a href="sam.html">账户安全</a></li>
+      				<li><a href="drawMoney.html">我要取款</a></li>
+      				<li><a href="withdrawals.html">取款记录</a></li>
+      				<li><a href="manage.html">代理管理</a></li>
+        			</ul>
+        			<!--账户安全的二级菜单-->
+        			<div class="two_menu">
+        				<ul>
+	    					<li><a href="sam.html">账户资料</a></li>
+	    					<li><a href="sam_2.html">安全信息</a></li>
+	    					<li><a href="sam_3.html">修改密码</a></li>
+        				</ul>
+        			</div>
+        			<!--代理管理二级菜单-->
+        			<div class="manage_two">   
+        				<ul>
+        					<li><a href="manage.html">会员输赢</a></li>
+        					<li><a href="manage_2.html">会员赠金</a></li>
+        					<li><a href="manage_3.html">会员佣金</a></li>
+        				</ul>
+        			</div>
+        		</div>
+        		<div class="left2">
+        			<div class="per1">
+        				欢迎光临万博娱乐城！
+        			</div>
+        			<div class="per2">
+	        			<p class="p1">代理账户：<span>K01</span> <button>退出</button></p>
+	        			<p class="p2">账户余额：<span>0.00</span>元 <button>取款</button></p>
+	        			<p class="p3">
+	        				<img src="../img/id_authentication.png" title="已实名认证"/>
+	        				<img src="../img/sj_authentication.png" title="已绑定手机号"/>
+	        				<img src="../img/mailbox_authentication.png" title="已绑定安全邮箱"/>
+	        				<img src="../img/Bank_authentication.png" title="已绑定银行卡"/>
+	        			</p>
+	        			<p class="p4"><img src="../img/news21x21.png"/><span>上次登录: 2017-03-16 13:34:0</span></p>
+        			</div>
+        		</div>
+        		<!--左边底部-->
+        		<div class="left3">
+        			<img src="../img/calls.png"/>
+        			<img src="../img/qq.png"/>
+        		</div>
+        	</div>
+        	<!--右边部分-->
+        	<div class="content_right">
+        		<h3>会员管理</h3>
+        		<div class="right">
+        			<div class="right1">
+        				<ul>
+        					<li><a href="manage.html">会员输赢</a></li>
+        					<li><a href="manage_2.html">会员赠金</a></li>
+        					<li><a href="manage_3.html">会员佣金</a></li>
+        				</ul>
+        			</div>
+        			
+        			
+        				<!--会员佣金-->
+        				<div class="detail_table">
+	        				<div class="bunko">
+		      			    	<div class="com">
+		        					<div class="detail_table_search">
+			      			    		<label>会员账号：</label><input type="text" id="" class="input_s"/>
+	      			    				<label>日期：</label><input type="text" id="date_start" class="input_s"/> <label>--</label> <input type="text" id="date_end" class="input_s"/><input type="button" class="last_input"  value="搜索"/>
+			      			    	</div>
+			      			    	
+			      			    	<table  cellpadding="0" cellspacing="0">
+					      				<tr>
+					      					<td>单号</td>
+					      					<td>会员账号</td>
+					      					<td>发放时间</td>
+					      					<td>金额</td>
+					      					<td>备注</td>
+					      				</tr>
+					      				<tr>
+					      					<td colspan="5">暂无记录！</td>
+					      				</tr>
+			      			    	</table>
+		        				</div>
+	        				</div>
+	      			    </div>
+      			    </div>
+
+        		</div>
+        	</div>
+        </div>     
+       <!--底部部分-->
+		<div class="foot">
+			<!--顶部标志-->
+			<div class=" quality">
+				<ul>
+					<li>
+						<p><img src="../img/Sincerity.png" /></p>
+						<p class="quality_p2"><img src="../img/Sincerity_08.png" /></p>
+					</li>
+					<li>
+						<p><img src="../img/platform.png" /></p>
+						<p class="quality_p2"><img src="../img/platform_09.png" /></p>
+					</li>
+					<li>
+						<p><img src="../img/Star.png" /></p>
+						<p class="quality_p2"><img src="../img/Star_10.png" /></p>
+					</li>
+					<li>
+						<p><img src="../img/security.png" /></p>
+						<p class="quality_p2"><img src="../img/security_11.png" /></p>
+					</li>
+				</ul>
+			</div>
+			<!--网站底部信息-->
+			<div class="webstat">
+				<p>菲律宾电话：0063-9163309898 代理联系邮箱：wanbodaili@hotmail.com </p>
+				<p>万博娱乐城 2006 - 2015 © 版权所有</p>
+			</div>
+		</div>
+	</body>
+	</body>
+</html>

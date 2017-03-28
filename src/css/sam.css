@@ -1,0 +1,402 @@
+/*底部样式重写*/
+
+.foot {
+	width: 1100px;
+	height: 194px;
+}
+
+
+/*************重写登陆后头部样式*****/
+
+.hbut_after {
+	width: 138px;
+	height: 54px;
+	float: right;
+	margin-top: 16px;
+}
+
+.hbut_after a,
+.hbut_after span {
+	display: inline-block;
+	float: left;
+}
+
+.hbut_after span {
+	line-height: 20px;
+	font-size: 12px;
+	color: #8156AC;
+	margin-left: 14px;
+}
+
+.hbut_after .hbut_first_icons {
+	height: 20px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.hbut_first_icons .last_a {
+	float: right;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.hbut_after .hbut_last_icons a {
+	margin-right: 10px;
+}
+
+
+/*主题部分样式*/
+
+.content {
+	height: 648px;
+}
+
+.content .content_left {
+	width: 236px;
+	height: 648px;
+	float: left;
+}
+
+.content .content_left .left1 {
+	height: 338px;
+	background: rgb(130, 86, 172);
+	padding-top: 10px;
+	position: relative;
+}
+
+.content_left .left1 li {
+	width: 236px;
+	font-size: 14px;
+	line-height: 33px;
+	height: 33px;
+	margin-bottom: 26px;
+	letter-spacing: 4px;
+}
+
+.content_left .left1 li a {
+	display: block;
+	color: rgb(239, 227, 254);
+	width: 152px;
+	margin-left: 36px;
+	padding-left: 48px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+
+/*.content_left .left1 li:hover{background: rgb(239,227,254);}*/
+
+
+/*.content_left .left1 li a:hover{color: rgb(130,86,172);}*/
+
+.content_left .left1 li a:hover {
+	background: #f0e3ff;
+	color: #8256ad;
+}
+
+
+/*账户安全的二级菜单*/
+
+.left1 .two_menu {
+	width: 108px;
+	height: 120px;
+	position: absolute;
+	right: -108px;
+	top: 128px;
+	z-index: 100;
+	background: rgb(130, 86, 172);
+	color: rgb(239, 227, 254);
+	display: none;
+}
+.content_left .left1 .two_menu li,.content_left .left1 .manage_two li{
+	margin: 0;
+	padding: 0;
+	width: 108px;
+	height: 40px;
+	
+}
+.content_left .left1 .two_menu li a{
+	width: 108px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 0;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+}
+
+.content_left .left1 .two_menu li a:hover{
+	background: rgb(239, 227, 254);
+	color: rgb(130, 86, 172);
+}
+/*代理管理二级菜单*/
+
+.left1 .manage_two {
+	width: 108px;
+	height: 120px;
+	position: absolute;
+	right: -108px;
+	bottom: 0;
+	display: none;
+	z-index: 100;
+	background: rgb(130, 86, 172);
+	color: rgb(239, 227, 254);
+}
+
+.left1 .manage_two li a{
+	width: 108px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0;
+	padding: 0;
+	border-radius: 0;
+	cursor: pointer;
+}
+.content_left .left1 .manage_two li a:hover{
+	background: rgb(239, 227, 254);
+	color: rgb(130, 86, 172);
+}
+
+/*左面中间部分*/
+
+.content_left .left2 {
+	width: 237px;
+	height: 186px;
+	background: rgb(107, 58, 156);
+}
+
+.content_left .left2 .per1 {
+	width: 237px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: rgb(239, 227, 254);
+	border-bottom: 1px dashed rgb(239, 227, 254);
+}
+
+.content_left .left2 .per2 {
+	width: 208px;
+	height: 122px;
+	padding-top: 18px;
+	padding-left: 29px;
+	color: rgb(239, 227, 254);
+	font-size: 12px;
+}
+
+.content_left .left2 .per2 p button {
+	cursor: pointer;
+	outline-style: none;
+	list-style: none;
+	border: none;
+	width: 42px;
+	height: 17px;
+	background: rgb(239, 227, 254);
+	color: rgb(107, 58, 156);
+	border-radius: 5px;
+	font-size: 12px;
+	margin-left: 66px;
+}
+
+.content_left .left2 .per2 .p2 {
+	margin-top: 19px;
+}
+
+.content_left .left2 .per2 .p2 button {
+	margin-left: 52px;
+}
+
+.left2 .per2 .p3 {
+	margin-top: 17px;
+	width: 100%;
+	height: 18px;
+}
+
+.content_left .left2 .per2 .p3 img {
+	float: left;
+	margin-left: 20px;
+}
+
+.left2 .per2 .p4 {
+	margin-top: 10px;
+	color: #EDE2FD;
+	font-size: 12px;
+}
+
+.left2 .per2 .p4 img {
+	float: left;
+	margin-left: 6px;
+	width: 15px;
+	height: 15px;
+}
+
+
+/*左面底部*/
+
+.content_left .left3 {
+	width: 237px;
+	height: 114px;
+	margin-top: 6px;
+}
+
+.content_left .left3 img {
+	width: 236px;
+	height: 54px;
+}
+
+
+/*右边样式*/
+
+.content_right {
+	width: 863px;
+	height: 648px;
+	float: left;
+}
+
+.content_right h3 {
+	font-size: 24px;
+	color: #8156AC;
+	letter-spacing: 5px;
+	margin-top: 18px;
+	margin-left: 21px;
+	margin-bottom: 17px;
+}
+
+
+/*右边中间*/
+
+.content_right .right {
+	width: 834px;
+	height: 582px;
+	background: #FCFAFF;
+	border-radius: 10px;
+	margin-left: 17px;
+}
+
+
+/*右边中间头部样式*/
+
+.content_right .right .right1 ul {
+	display: flex;
+	width: 100%;
+	height: 51px;
+}
+
+.content_right .right .right1 ul li {
+	flex: 1;
+}
+.content_right .right .right1 ul li a{
+	text-align: center;
+	background: #39A4E1;
+	display: block;
+	width: 278px;
+	height: 51px;
+	line-height: 50px;
+	font-size: 20px;
+	color: #FCFAFF;
+}
+.content_right .right .right1 ul li:hover {
+	opacity: .8;
+}
+
+.content_right .right .right1 ul li:first-child a{
+	border-top-left-radius: 10px;
+	background: #8156AC;
+}
+
+
+.content_right .right .right1 ul li:last-child a{
+	border-top-right-radius: 10px;
+}
+
+.right .right2 {
+	width: 631px;
+	height: 483px;
+	margin-left: 103px;
+	margin-top: 50px;
+	position: relative;
+}
+
+
+/*账户资料详情*/
+
+.right .right2 .account {
+	font-size: 14px;
+	color: #000000;
+	/*display: none;*/
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.right .right2 .account1 {
+	width: 631px;
+	border-bottom: 1px dashed #000000;
+}
+
+.right .right2 .account1 .p2 {
+	margin: 17px 0 23px;
+}
+
+.right .right2 .account1 .p2 input {
+	width: 128px;
+	height: 20px;
+	border: 1px solid #8156AC;
+	outline-style: none;
+}
+
+.right .right2 .account2 {
+	padding-top: 26px;
+}
+
+.right .right2 .account2 .p3 {
+	margin-left: 73px;
+	font-size: 14px;
+	color: #000000;
+	margin-bottom: 19px;
+}
+
+.right .right2 .account2 .p4 .sp1 {
+	margin-right: 20px;
+}
+
+.right .right2 .account2 .p5,
+.account2 .p6,
+.account2 .p7,
+.account2 .p8 {
+	margin: 19px 0;
+}
+
+.account2 button {
+	font-size: 12px;
+	color: #000000;
+	width: 164px;
+	height: 28px;
+	border: none;
+	background: #E0E2FE;
+	margin-left: 233px;
+	border-radius: 20px;
+	cursor: pointer;
+	outline-style: none;
+}
+
+.account .tijiao {
+	font-size: 24px;
+	color: #000000;
+	width: 112px;
+	height: 35px;
+	background: #8156AC;
+	border: none;
+	margin-left: 259px;
+	margin-top: 25px;
+	border-radius: 10px;
+	letter-spacing: 5px;
+	cursor: pointer;
+	outline-style: none;
+}
+
+
+
+

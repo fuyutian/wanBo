@@ -1,0 +1,44 @@
+@charset "utf-8";
+.content_right .right .right1 ul li:first-child a{
+	background: #39A4E1;
+}
+.content_right .right .right1 ul li:nth-child(2) a{
+	background: #8156AC;
+}
+/*安全信息*/
+
+.right .right2 .safe {
+	font-size: 14px;
+	color: #000000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-weight: 600;
+	/*display: none;*/
+}
+
+.right .right2 .safe p {
+	margin-bottom: 20px;
+}
+
+.right .right2 .safe p span {
+	margin-right: 25px;
+}
+
+.right .right2 .safe p i {
+	font-style: normal;
+	font-weight: 500;
+}
+
+.right .right2 .safe button {
+	width: 166px;
+	height: 30px;
+	background: rgb(224, 213, 242);
+	color: rgb(119, 97, 162);
+	border: none;
+	outline-style: none;
+	margin: 52px 0 0 235px;
+	border-radius: 20px;
+	font-weight: 600;
+	cursor: pointer;
+}

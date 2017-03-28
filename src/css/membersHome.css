@@ -1,0 +1,325 @@
+@charset "UTF-8";
+html,body{
+	width: 100%;
+	background-size: cover;
+}
+/*底部样式重写*/
+.foot {
+	height: 490px;
+}
+
+/*************重写登陆后头部样式*****/
+
+.hbut_after {
+	width: 138px;
+	height: 54px;
+	float: right;
+	margin-top: 16px;
+}
+
+.hbut_after a,
+.hbut_after span {
+	display: inline-block;
+	float: left;
+}
+
+.hbut_after span {
+	line-height: 20px;
+	font-size: 12px;
+	color: #8156AC;
+	margin-left: 14px;
+}
+
+.hbut_after .hbut_first_icons {
+	height: 20px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.hbut_first_icons .last_a {
+	float: right;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.hbut_after .hbut_last_icons a {
+	margin-right: 10px;
+}
+
+
+/**********content部分**************/
+
+.content {
+	height: 531px;
+}
+
+.content .content_left {
+	width: 236px;
+/*	overflow: hidden;*/
+	height: 531px;
+}
+
+.content .content_right {
+	width: 864px;
+    overflow: hidden;
+    height: 531px;
+	float: right;
+}
+
+
+/***********content_left*********************/
+
+
+/*******content_left_menu********/
+
+/*.content_left .content_left_menu {
+	height: 336px;
+	overflow: hidden;
+	background: #8256ad;
+	padding-top: 10px;
+}
+.content_left .content_left_menu ul li {
+	width: 236px;
+	font-size: 14px;
+	line-height: 33px;
+	height: 33px;
+	margin-bottom: 26px;
+	letter-spacing: 4px;
+}
+
+.content_left .content_left_menu ul li a {
+	display: block;
+	color: #fff;
+	width: 200px;
+	margin-left: 36px;
+	padding-left: 48px;
+}
+
+.content_left .content_left_menu ul li a:hover {
+	background: #f0e3ff;
+	color: #8256ad;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}*/
+
+
+/*左面中间部分*/
+
+/*.content_left .left2 {
+	width: 237px;
+	height: 186px;
+	background: rgb(107, 58, 156);
+}
+
+.content_left .left2 .per1 {
+	width: 237px;
+	height: 46px;
+	text-align: center;
+	line-height: 46px;
+	color: rgb(239, 227, 254);
+	border-bottom: 1px dashed rgb(239, 227, 254);
+}
+
+.content_left .left2 .per2 {
+	width: 208px;
+	height: 122px;
+	padding-top: 18px;
+	padding-left: 29px;
+	color: rgb(239, 227, 254);
+	font-size: 12px;
+}
+
+.content_left .left2 .per2 p button {
+	cursor: pointer;
+	outline-style: none;
+	list-style: none;
+	border: none;
+	width: 42px;
+	height: 17px;
+	background: rgb(239, 227, 254);
+	color: rgb(107, 58, 156);
+	border-radius: 5px;
+	font-size: 12px;
+	margin-left: 66px;
+}
+
+.content_left .left2 .per2 .p2 {
+	margin-top: 19px;
+}
+
+.content_left .left2 .per2 .p2 button {
+	margin-left: 48px;
+}
+
+.left2 .per2 .p3 {
+	margin-top: 17px;
+	width: 100%;
+	height: 18px;
+}
+
+.content_left .left2 .per2 .p3 img {
+	float: left;
+	margin-left: 20px;
+}
+
+.left2 .per2 .p4 {
+	margin-top: 10px;
+	color: #EDE2FD;
+	font-size: 12px;
+}
+
+.left2 .per2 .p4 img {
+	float: left;
+	margin-left: 6px;
+	width: 15px;
+	height: 15px;
+}*/
+
+
+/*登陆样式*/
+
+
+/***************content_right****************/
+
+.content_right h1 {
+	font-size: 24px;
+	color: #8155ac;
+	margin: 18px 0 18px 21px;
+	letter-spacing: 5px;
+}
+
+.content_right_top {
+	overflow: hidden;
+	letter-spacing: 3px;
+}
+
+.content_right_top .content_right_balance,
+.content_right_top .content_right_manage {
+	width: 400px;
+	height: 204px;
+	background: #fcfaff;
+	border-radius: 10px;
+	float: left;
+}
+
+.content_right_title {
+	height: 50px;
+	background: #3aa4e2;
+	font-size: 18px;
+	color: #ffffff;
+	line-height: 50px;
+	padding-left: 64px;
+	letter-spacing: 4px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+
+/***************账户余额*******************/
+
+.content_right_balance .myMoney {
+	width: 100%;
+	height: 154px;
+}
+
+.content_right_balance .money {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 38px;
+	margin-bottom: 34px;
+}
+
+.content_right_balance .myMoney_button button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	/*	font-weight: bold;*/
+}
+
+.content_right_balance .myMoney_button button:nth-child(1) {
+	font-size: 20px;
+	margin-left: 180px;
+	margin-right: 34px;
+}
+
+.content_right_balance .myMoney_button button:nth-child(2) {
+	font-size: 12px;
+}
+
+
+/******************content_right_manage***********************/
+
+.content_right_manage .manage_list {
+	width: 100%;
+	overflow: hidden;
+}
+
+.manage_list li {
+	margin-top: 22px;
+	margin-left: 24px;
+	font-size: 14px;
+}
+
+.manage_list li span:nth-child(1) {
+	margin-right: 52px;
+}
+
+.manage_list button {
+	border: none;
+	float: right;
+	margin-right: 34px;
+	background: none;
+	cursor: pointer;
+}
+
+
+/****************************************/
+
+.content_right_top .content_right_balance {
+	margin: 0 26px 0 17px;
+}
+
+
+/*******************content_right_bottom*********************/
+
+.content_right_bottom {
+	letter-spacing: 2px;
+	width: 838px;
+	height: 244px;
+	background: #fcfaff;
+	border-radius: 10px;
+	margin-top: 16px;
+	margin-left: 12px;
+	position: relative;
+}
+
+.content_right_bottom table {
+	width: 808px;
+	margin: 8px auto;
+	border-collapse: collapse;
+	border: 1px solid #555555;
+}
+
+.content_right_bottom table td {
+	border: 1px solid #555555;
+	text-align: center;
+	height: 24px;
+}
+
+.content_right_bottom .nothing {
+	text-align: center;
+	margin-top: 34px;
+}
+
+.content_right_bottom button {
+	letter-spacing: 2px;
+	margin: 0 auto;
+	border: none;
+	background: none;
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	margin-left: -50px;
+	bottom: 10px;
+}

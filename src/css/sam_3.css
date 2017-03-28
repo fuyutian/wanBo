@@ -1,0 +1,56 @@
+@charset "utf-8";
+.content_right .right .right1 ul li:first-child a{
+	background: #39A4E1;
+}
+.content_right .right .right1 ul li:nth-child(3) a{
+	background: #8156AC;
+}
+/*修改密码*/
+
+.right .right2 .alter {
+	font-size: 14px;
+	color: #000000;
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-weight: 600;
+	/*display: none;*/
+}
+
+.right .right2 .alter p {
+	margin-bottom: 20px;
+}
+
+.right .right2 .alter p span {
+	display: block;
+	width: 72px;
+	float: left;
+	text-align: right;
+}
+
+.right .right2 .alter p input {
+	width: 130px;
+	height: 20px;
+	border: 1px solid #8156AC;
+	outline-style: none;
+}
+
+.right .right2 .alter p i {
+	font-style: normal;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.right .right2 .alter button {
+	width: 114px;
+	height: 37px;
+	border: none;
+	border-radius: 10px;
+	background: #8156AC;
+	margin: 17px 0 0 275px;
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 5px;
+	outline-style: none;
+	cursor: pointer;
+}

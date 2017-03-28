@@ -1,0 +1,53 @@
+body,html{width: 100%;}
+/*底部样式重写*/
+.foot{width: 1100px;height: 194px;}
+/*主题部分样式*/
+.main_top{width: 100%;height: 270px;background:  #9569D5;overflow: hidden;}
+.main_top .in_top{width: 1100px;height: 270px;margin: 0 auto;}
+.main_top .in_top .logo{width:438px ;height: 140px;margin: 0 auto;background: cadetblue;margin-top:30px;}
+.main_top .in_top p{text-align: center;font-size: 32px;color: #F6E6FE;margin-top: 19px;letter-spacing: 10px;}
+.main_bot{width: 1100px;margin: 0 auto;height:308px;overflow: hidden;}
+/*登陆样式*/
+.main_bot .user{
+	width: 263px;
+	height: 38px;
+	margin: 0 auto;
+	border: 1px solid #DD97FF;
+	border-radius: 10px;
+	margin-top: 43px;
+	background: #F3F4F6;
+}
+.main_bot p img{margin: 5px;float: left;}
+.main_bot p input{width: 220px;height: 36px;float: left;border: none;background: none;outline:medium;}
+.main_bot .pass{
+	width: 263px;
+	height: 38px;
+	margin: 0 auto;
+	border: 1px solid #DD97FF;
+	border-radius: 10px;
+	margin-top: 18px;
+	background: #F3F4F6;
+}
+.main_bot .log{
+	width: 99px;
+	height: 32px;
+	margin: 0 auto;
+	margin-top: 21px;
+	margin-bottom: 26px;
+	border: 1px solid #DD97FF;
+	border-radius: 10px;
+}
+.main_bot .log button{
+	border-radius: 10px;
+	cursor: pointer;
+	outline:none;
+	width: 99px;
+	height: 32px;
+	background: #F3F4F6;
+	color: #8357AC;
+	border: none;
+}
+.main_bot .sign{text-align: center;color: #8357AC;
+				width: 263px;height: 15px;margin: 0 auto;}
+.main_bot .sign a{color: #8357AC;}
+.main_bot .sign a:hover{text-decoration:underline;}

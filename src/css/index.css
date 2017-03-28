@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/**********content部分**************/
+.content{overflow: hidden;height: 100%;}
+.content .content_left{width: 236px;overflow: hidden;height:100%;}
+.content .content_right{width: 864px;float: right;overflow: hidden;height:100%;}
+
+/***********content_left*********************/
+/*******content_left_menu********/
+.content_left .content_left_menu{height:336px ;overflow: hidden;background:#8256ad;padding-top: 10px;}
+.content_left .content_left_menu ul li{width: 236px;font-size: 14px;line-height: 33px;height:33px;margin-bottom: 26px;letter-spacing: 4px;}
+.content_left .content_left_menu ul li a{display: block;color:rgb(239,227,254) ;width: 152px;margin-left: 36px;padding-left:48px ;border-bottom-left-radius: 5px;border-top-left-radius: 5px;}
+.content_left .content_left_menu ul li a:hover{background: #f0e3ff;color: #8256ad;}
+
+/**************content_left_login****************/
+
+.content_left_login{height: 185px;overflow: hidden;background: #6c3a9d;}
+
+/*登陆样式*/
+.content .user,.content_left_login .pass{
+	width: 208px;
+	height: 36px;
+	margin: 0 auto;
+	border: 1px solid #DD97FF;
+	border-radius: 10px;
+	background: #F3F4F6;
+}
+.content_left_login .user{margin-top: 13px;}
+.content_left_login p img{margin: 5px 10px;float: left;width: 26px;height: 26px;}
+.content_left_login p input{width: 162px;height: 38px;float: left;border: none;background: none;outline:medium;}
+
+.content_left_login .pass{
+	             margin-top: 8px;
+}
+.content_left_login .log{
+	width: 99px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 11px;
+	margin-bottom: 14px;
+	border: 1px solid #DD97FF;
+	border-radius: 10px;
+}
+.content_left_login .log button{
+	border-radius: 10px;
+	cursor: pointer;
+	outline:none;
+	width: 99px;
+	height: 30px;
+	background: #F3F4F6;
+	color: #8357AC;
+	border: none;
+	line-height: 30px;
+	font-size: 16px;
+}
+
+.content_left_login .log button:hover{background: rgba(255,255,255,.5);}
+.content_left_login .sign{
+	text-align: center;
+	color: #fff;
+	font-size:14px;
+	font-weight: normal;
+    cursor: pointer;
+    height: 15px;
+    }
+.content_left_login .sign a{color: #fff;text-decoration: underline;}
